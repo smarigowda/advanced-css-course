@@ -139,7 +139,8 @@ body {
 
 .btn--white {
   background-color: white;
-  color: #777;
+  color: #e68a00;
+  letter-spacing: 1rem;
 }
 
 .btn::after {
