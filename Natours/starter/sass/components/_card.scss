@@ -31,6 +31,9 @@
       &-2 {
         background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
       }
+      &-3 {
+        background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+      }
     }
   }
 
@@ -57,7 +60,7 @@
       url(../img/nat-6.jpg);
     }
     &--3 {
-      background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark),
+      background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark),
       url(../img/nat-7.jpg);
     }
   }
@@ -90,6 +93,7 @@
       rgba($color-primary-light, .85),
       rgba($color-primary-dark, .85));
     }
+    
   }
 
   &__details {
